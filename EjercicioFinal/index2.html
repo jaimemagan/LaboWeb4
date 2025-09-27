@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EkercicioFinal</title>
+    <title>Ejercicio Final - Guía 4</title>
+    <link rel="stylesheet" href="Css.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Recordatorio de Actividades Semanales</h1>
+        
+        <div class="input-section">
+            <label for="diaSemana">Selecciona el día de la semana:</label>
+            <select id="diaSemana">
+                <option value="">-- Selecciona un día --</option>
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+            
+            <button id="btnRecordar">Recordar Actividad</button>
+        </div>
+        
+        <div id="resultado" class="resultado">
+            <p id="mensaje">Selecciona un día para ver tu actividad.</p>
+        </div>
+    </div>
     
-<select  id="dia de semana">
-
-    <option value="" disabled>--ESCOGER DIA DE SEMANA--</option>
-    <option value="Lunes">--Lunes---</option>
-    <option value="Martes">--Martes---</option>
-    <option value="Miercoles">--Miercoles---</option>
-    <option value="Jueves">--Jueves---</option>
-    <option value="Viernes">--Viernes---</option>
-
-</select>
-    
-
-
-
-
     <script src="script2.js"></script>
 </body>
 </html>
